@@ -10,7 +10,7 @@ export default function Links(props) {
         user_id: "",
         url: "",
     });
-    data.user_id = user.id
+    data.user_id = user.id //set user id, from logged in user since it's a hidden field that we need to pass through
   
     function handleSubmit(e) {
         e.preventDefault();
